@@ -1,0 +1,269 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main {
+	height: 650px;
+	margin: auto;
+	width: 800px;
+	padding-top: 2px;
+}
+
+header{
+	height: 140px;
+}
+
+header img{
+	width: 800px;
+	height: 270px;
+}
+
+nav{
+	height: 55px;
+	background-color: rgb(0,0,0);
+	border-bottom-left-radius: 20px;
+	padding-bottom: 5px;
+	border-bottom-right-radius: 20px;
+	margin-bottom: 10px;
+  box-shadow: 5px 2px 5px;
+}
+
+nav ul{
+padding-bottom: 20px;
+}
+
+nav ul li{
+	margin: 15px;
+	margin-left: 25px;
+	list-style: none;
+	display: inline-block;
+	font-size: 17px;
+	padding-left: 5px;
+	cursor: pointer;
+	padding-top: 0px;
+	color: white;
+}
+
+#logo{
+  border-radius: 1em;
+ margin: 0 1em;
+ padding: 0;
+ height: 8em;
+  }
+
+.border{
+ font-size: 24px;
+ color: white;
+}
+
+section{
+	height: 500px;
+	width: 465px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+article{
+	height: 230px;
+	width: 455px;
+	float: left;
+	background-color: rgb(209, 115, 33);
+    box-shadow: 5px 6px 5px rgba(209, 115, 33);
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-bottom: 13px;
+	margin-top: 2px;
+	font-size: 14px;
+}
+
+
+
+article h2{
+	text-align: justify;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	color:white;
+}
+
+
+
+article p{
+	text-align: justify;
+	font-size: 13px;
+	padding-top: 7px;
+	margin: 0px 20px 5px 20px;
+	font-weight: 20px;
+
+}
+
+article a{
+	text-align: justify;
+	font-size: 13px;
+	padding-top: 7px;
+	margin: 0px 20px 5px 20px;
+	font-weight: 20px;
+}
+
+
+
+section img{
+	float: right;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	border: 2px solid black;
+}
+
+
+
+aside{
+	height: 480px;
+	width: 285px;
+	float: right;
+	border-radius: 20px;
+	background: rgba(0,0,0,0.1);
+  border-color: olive;
+  box-shadow: 5px 5px 10px olive;
+	padding-right: 12px;
+	padding-left: 8px;
+}
+
+
+
+aside header{
+	background-color: rgb(188,60,169);
+	height: 8%;
+	width: 293px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	color: black;
+	line-height: 45px;
+	color: black;
+	text-align: center;
+	line-height: 45px;
+	padding-left: 12px;
+	margin-left: -8px;
+}
+
+aside form {
+	height: 400px;
+	width: 275px;
+}
+
+aside form table {
+	height: 360px;
+	width: 275px;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: black;
+}
+
+aside form table td {
+		margin-bottom: 50px;
+}
+
+aside .btn-submit {
+	margin-left: 120px;
+	margin-top: 10px
+	}
+
+aside ul{
+	list-style: none;
+	margin: 24px 30px 30px 10px;
+	padding: 10px 20px 10px 10px;
+}
+
+
+aside ul li{
+	list-style: none;
+	margin-top: -13px;
+	color: white;
+}
+
+
+
+  .content .form{
+  	width: 88%;
+  	max-width: 650px;
+  	margin: auto;
+  	padding: 5px 16px;
+  	margin-top: 21px;
+  	padding-bottom: 35px;
+  	text-align: justify;
+  }
+
+
+
+  .content .form .form-label{
+  	display: inline-block;
+  	font-size: 16px;
+  	position: relative;
+
+  	text-align: center;
+  	color: #e3e4e5;
+  }
+
+
+
+  .content .form .form-input{
+  	outline: none;
+  	border: 2px solid silver;
+  	width: 156px;
+  	padding: 4px;
+  	margin-bottom: 15px;
+  	font-size: 13px;
+  }
+
+
+
+  .content .form .btn-submit{
+	width: 50%;
+  	outline: none;
+  	background-color: #7f69a5;
+  	font-size: 15px;
+  	border-radius: 5px;
+  	border: 1px solid #8a9597;
+  	padding: 7px;
+  	margin-left: 70px;
+  	margin-top: 5px;
+  	cursor: pointer;
+  	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  	transform: scale(1);
+  	transition: transform 0.1s;
+  }
+
+  .content .form .btn-submit:hover{
+  	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
+  	transform: scale(1.03);
+   }
+
+
+  footer{
+  	clear: both;
+  	height: 72px;
+  	background-color: rgb(0,0,0);
+  	border-bottom-left-radius: 10px;
+  	border-bottom-right-radius: 10px;
+  	position: center;
+  	margin-top: 0px;
+  }
+
+
+  footer p{
+  	text-align: center;
+  	position: center;
+  	margin: auto;
+  	font-size: 14px;
+  	line-height: 20px;
+  	color: white;
+  	padding-top: 8px;
+  }
